@@ -28,12 +28,6 @@ Change permission to 777
 sudo chmod -R 777 osx-live-wallpaper
 ```
 
-Go to the directory
-
-```bash
-cd osx-live-wallpaper
-```
-
 Run for the first time
 
 ```bash
