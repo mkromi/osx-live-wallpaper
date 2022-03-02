@@ -37,8 +37,12 @@ cd osx-live-wallpaper
 Run for the first time
 
 ```bash
-bash app.sh
+bash /Users/YOUR_USER_NAME/osx-live-wallpaper/app.sh
 ```
+
+Replace YOUR_USER_NAME by your username.
+
+_Note:  To get username type `whoami` in terminal_
 
 To change wallpaper automatically open crontab in edit mode
 
@@ -50,9 +54,6 @@ Copy the line below and paste
 ```bash
 */5 * * * * /bin/bash /Users/YOUR_USER_NAME/osx-live-wallpaper/app.sh
 ```
-Replace YOUR_USER_NAME by your username.
-
-_Note:  To get username type `whoami` in terminal_
 
 The Cron job will run the script every five minutes and change the wallpaper. You can configure the Cron job to change the refresh time.
 
