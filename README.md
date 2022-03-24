@@ -51,6 +51,8 @@ Copy the line below and paste
 
 The Cron job will run the script every five minutes and change the wallpaper. You can configure the Cron job to change the refresh time.
 
+_Note: It might ask for few permissions first time, please allow them to make it work properly._
+
 __If  you want set wallpaper tags__
 ```bash
 cd ~
